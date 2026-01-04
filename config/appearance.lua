@@ -11,6 +11,10 @@ return {
    -- webgpu_preferred_adapter = gpu_adapters:pick_manual('Gl', 'Other'),
    underline_thickness = '1.5pt',
 
+   -- copy
+   enable_clipboard_provider = true,
+   enable_clipboard_access_for_paste = true,
+
    -- cursor
    animation_fps = 120,
    cursor_blink_ease_in = 'EaseOut',
@@ -26,7 +30,7 @@ return {
 
    -- transparent matte
    window_background_opacity = 0.88,
-   macos_window_background_blur = 35, -- macos
+   -- macos_window_background_blur = 35, -- macos
    -- win32_system_backdrop = 'mica',  -- windows 11
 
    -- scrollbar
