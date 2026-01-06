@@ -11,9 +11,7 @@ return {
    -- webgpu_preferred_adapter = gpu_adapters:pick_manual('Gl', 'Other'),
    underline_thickness = '1.5pt',
 
-   -- copy
-   enable_clipboard_provider = true,
-   enable_clipboard_access_for_paste = true,
+   -- copy (OSC 52 clipboard is enabled by default in modern WezTerm)
 
    -- cursor
    animation_fps = 120,
