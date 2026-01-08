@@ -31,6 +31,9 @@ return {
    -- macos_window_background_blur = 35, -- macos
    -- win32_system_backdrop = 'mica',  -- windows 11
 
+   -- wayland
+   enable_wayland = true,
+   enable_opengl = false,
    -- scrollbar
    enable_scroll_bar = true,
 
