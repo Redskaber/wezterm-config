@@ -33,7 +33,9 @@ return {
 
    -- wayland
    enable_wayland = true,
-   enable_opengl = false,
+   --(departed)
+   -- enable_opengl = false,
+
    -- scrollbar
    enable_scroll_bar = true,
 
